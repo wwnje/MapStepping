@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Custom_WaterSurface_no_reflect_foam_\u504F\u7EFF\u8272_\u6B63\u5E38\u5927\u5C0F\u6D77\u9762"
+  m_Shader: {fileID: 4800000, guid: 10174a8c34fc1994987342758a016d31, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 0fa0f451de0e4364ca15317acee1b81e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTex:
+        m_Texture: {fileID: 2800000, guid: f35a439e81a933b45a7db766408d2ebf, type: 3}
+        m_Scale: {x: 96.2, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMask:
+        m_Texture: {fileID: 2800000, guid: e8d71e34a9bd3684297e6f27bdd5cb73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractTex:
+        m_Texture: {fileID: 2800000, guid: 10d244cdc5401cf4fa9f09767faac2f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skybox:
+        m_Texture: {fileID: 8900000, guid: 3a842e26308daae4496d88f044e63641, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpStrength: 2.5
+    - _DepthRange: 0.68
+    - _FoamRange: 0.55
+    - _RollFoamU: -0.25
+    - _RollFoamV: 0.2
+    m_Colors:
+    - _BumpDirection: {r: -0.3, g: -0.06, b: 0.05, a: -0.11}
+    - _BumpTiling: {r: 0.08, g: 0.1, b: 0.3, a: 0.56}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColor: {r: 0, g: 0, b: 0, a: 0.6784314}
+    - _Params: {r: 41.1, g: 0.005, b: 0, a: 0}
+    - _Specular: {r: 0.8337519, g: 0.8773585, b: 0.28555536, a: 0.6627451}
+    - _SunDir: {r: -1.91, g: -1.22, b: 5, a: 8.26}

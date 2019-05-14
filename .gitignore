@@ -1,0 +1,45 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+
+Library/*
+
+# AssetBundele
+
+Profile/
+ProjectSettings/
+
+AssetBundles/*
+Assets/StreamingAssets/AssetBundles/*
+
+InspectorExpandedItems.asset
+ZTest
+ZTest.meta
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+.vs
+.vscode
+.idea
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
